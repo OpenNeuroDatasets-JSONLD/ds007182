@@ -2,6 +2,19 @@ The PRISMA dataset is organised according to the Brain Imaging Data Structure
 (BIDS) specification version 1.10.1 and is publicly available at doi:10.18112/openneuro.ds007182.v1.0.0 
 under accession number ds007182.
 
+### Planned analysis
+This dataset is released at the same time as the data descriptor, before we have published any analysis of it. Collecting it took over 18 months of recruitment, testing and quality control. Recruiting and retaining autistic adults for repeated sessions of this length required sustained contact with each participant and adaptations to the testing procedure developed with an expert-by-experience panel. The scanning was paid for by the Netherlands Organisation for Research (NWO) and the acquisition, curation and preprocessing required the work of many people. Datasets of this kind are often embargoed for several years so that the group that did this work has first use of it. We decided against an embargo. Releasing the data now means our own analyses can be checked against them from the start, and it makes the dataset useful to others without delay. That decision does not make the data cost-free, and we ask users to keep the following in mind.
+
+We are working on these analyses ourselves:
+- Stability and reliability of functional connectomes in autistic adults 
+- Individual variation in functional anatomy in autistic adults 
+- Processing of naturalistic video and its relation to spontaneous thought in autism 
+- Coupling between white matter structural connectivity and functional dynamics in autism 
+
+If you are planning work on any of these, please contact us first. We would rather coordinate or collaborate than duplicate. This request stands until the corresponding preprints are posted; we will link them here and remove items as they appear.
+
+Last updated: 8 September 2026.
+
 ### Key naming conventions:
 
 - Participant labels: sub-001 to sub-066
@@ -36,14 +49,10 @@ are provided as tab-separated value files (.tsv) with JSON metadata files.
 Preprocessed data are provided in `derivatives/` following BIDS Derivatives 
 specification:
 
-- `fmriprep/`: Functional MRI data preprocessed with fMRIPrep version X.X.X, 
-  including motion-corrected, spatially normalised, and surface-projected data
-- `qsiprep/`: Diffusion MRI data preprocessed with QSIPrep version X.X.X, 
-  including denoised, distortion-corrected, and eddy-current-corrected data
-- `qsirecon/`: Structural connectomes derived using mrtrix_singleshell_ss3t 
-  pipeline with anatomically constrained tractography
-- `physio/`: Processed physiological data including peak detection, heart rate 
-  variability, and respiratory volume per time calculations
+- `fmriprep/`: Functional MRI data preprocessed with fMRIPrep version 25.2.3, including motion-corrected, spatially normalised, and surface-projected data
+- `qsiprep/`: Diffusion MRI data preprocessed with QSIPrep version 1.0.2,  including denoised, distortion-corrected, and eddy-current-corrected data
+- `qsirecon/`: Structural connectomes derived using mrtrix_singleshell_ss3t  pipeline with anatomically constrained tractography
+- `physio/`: Physiological data for peak detection, heart rate  variability, and respiratory volume per time calculations
 
 Each derivative directory contains a `dataset_description.json` file specifying 
 the generating software and version.
@@ -76,9 +85,9 @@ Known missing data patterns:
 The dataset is available on OpenNeuro under Creative Commons CC0. Users must cite this data 
 descriptor publication when using the dataset.
 
-DOI: [insert DOI once available]
-Repository: [insert repository URL]
-Accession number: [insert accession number]
+- DOI: 10.18112/openneuro.ds007182.v1.0.0
+- Repository: https://openneuro.org/datasets/ds007182
+- Accession number: ds007182
 
 ### Data Use Agreement
 
@@ -88,4 +97,4 @@ Users are required to:
 2. Respect participant privacy by not attempting re-identification
 3. Follow repository-specific terms of use
 
-Technical Validation data and analysis code are available at [GitHub/OSF URL].
+Technical Validation data and analysis code are available at [https://github.com/joebathelt/ASDPrecision](https://github.com/joebathelt/ASDPrecision).
