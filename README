@@ -1,10 +1,10 @@
 The PRISMA dataset is organised according to the Brain Imaging Data Structure 
-(BIDS) specification version 1.10.1 and is publicly available at [REPOSITORY] 
-under accession number [DOI/ACCESSION].
+(BIDS) specification version 1.10.1 and is publicly available at doi:10.18112/openneuro.ds007182.v1.0.0 
+under accession number ds007182.
 
 ### Key naming conventions:
 
-- Participant labels: sub-001 to sub-067
+- Participant labels: sub-001 to sub-066
 - Session labels: ses-01, ses-02, ses-03
 - Task labels: rest, news, realitytv
 - Run labels: run-01, run-02, run-03, ...

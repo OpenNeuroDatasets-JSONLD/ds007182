@@ -1,5 +1,4 @@
-{   
-    "Description": "Participant-level metadata for the ASD Precision fMRI dataset",
+{
     "participant_id": {
         "DataType": "categorical",
         "Description": "Unique identifier for each participant"
@@ -138,6 +137,346 @@
         "Description": "SDQ subscale score for prosocial behavior",
         "Units": "arbitrary"
     },
+        "matrix_reasoning_raw_score": {
+      "description": "Wechsler Adult Intelligence Scale (WAIS) 4th edition Matrix Reasoning raw score",
+      "type": "integer"
+    },
+    "matrix_reasoning_scaled_score": {
+      "description": "WAIS Matrix Reasoning scaled score",
+      "type": "integer"
+    },
+    "vocabulary_raw_score": {
+      "description": "WAIS Vocabulary raw score",
+      "type": "integer"
+    },
+    "vocabulary_scaled_score": {
+      "description": "WAIS Vocabulary scaled score",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_comfort": {
+      "description": "Amsterdam Resting State Questionnaire (ARSQ) version 1.0 'Comfort' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_news_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 1 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_reality_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 1 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_01_condition_rest_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 1 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_news_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 2 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_reality_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 2 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_02_condition_rest_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 2 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_news_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 3 news viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_reality_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 3 reality TV viewing condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_comfort": {
+      "description": "ARSQ 'Comfort' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_discontinuity_of_mind": {
+      "description": "ARSQ 'Discontinuity of Mind' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_other": {
+      "description": "ARSQ 'Other' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_planning": {
+      "description": "ARSQ 'Planning' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_self": {
+      "description": "ARSQ 'Self' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_sleepiness": {
+      "description": "ARSQ 'Sleepiness' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_somatic_awareness": {
+      "description": "ARSQ 'Somatic Awareness' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_theory_of_mind": {
+      "description": "ARSQ 'Theory of Mind' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
+    "arsq_ses_03_condition_rest_dimension_validation": {
+      "description": "ARSQ 'Validation' dimension score during session 3 rest condition",
+      "type": "integer"
+    },
     "session_1_time": {
         "Description": "Time of day for the participant's first session (format: HH:MM:SS)"
     },
@@ -162,12 +501,13 @@
         "Description": "Number of days between the first and third sessions",
         "Units": "days"
     },
-    "rsfMRI_complete": {
-        "DataType": "categorical",
-        "Description": "Whether all rsfMRI runs are available for the participant",
-        "Levels": {
-            "True": "All fMRI runs are available",
-            "False": "Not all fMRI runs are available"
-        }
+    "ses-01_notes": {
+        "Description": "Notes taken during the acquisition of session 1"
+    },
+    "ses-02_notes": {
+        "Description": "Notes taken during the acquisition of session 2"
+    },
+    "ses-03_notes": {
+        "Description": "Notes taken during the acquisition of session 3"
     }
 }

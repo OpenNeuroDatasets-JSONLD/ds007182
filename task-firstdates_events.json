@@ -1,5 +1,4 @@
 {   
-    "Description": "Events file for the First-Dates movie, detailing the timing and type of events during the fMRI scan.",
     "onset": {
         "Description": "Onset time of the event in seconds relative to the start of the scan",
         "Units": "s"
@@ -13,10 +12,5 @@
     },
     "stim_file": {
         "Description": "Filename of the stimulus video presented during this task"
-    },
-    "StimulusPresentation": {
-        "OperatingSystem": "Windows 10",
-        "SoftwareName": "PsychoPy",
-        "SoftwareVersion": "2024.1.0"
     }
 }
